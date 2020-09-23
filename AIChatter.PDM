@@ -1,0 +1,101 @@
+[Root]
+Most Recent Package=Chatter
+
+
+[Package|Chatter|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=H:\New\AIChatterV2\Setup
+
+[Package|Chatter|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Chatter|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Chatter|Files Found]
+
+[Package|Chatter|Files Released]
+Kernel.DLL=
+
+[Package|Chatter|Missing Dependency Information]
+
+[Package|Chatter|Out-of-Date Dependency Information]
+
+[Package|Chatter|Files Added]
+H:\New\AIChatterV2\general.dat=
+
+[Package|Chatter|Files Removed]
+c:\windows\system\msvbvm60.dll=
+c:\windows\system\oleaut32.dll=
+c:\windows\system\olepro32.dll=
+c:\windows\system\asycfilt.dll=
+c:\windows\system\stdole2.tlb=
+d:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+
+[Package|Chatter|Files In Project]
+H:\New\AIChatterV2\AIChatter.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=No
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=No
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=No
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=No
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=No
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+H:\New\AIChatterV2\general.dat=Yes
+
+[Package|Chatter|Configure Registry Files]
+Applicable=No
+
+[Package|Chatter|Configure Remote Servers]
+Applicable=No
+
+[Package|Chatter|Install Locations]
+H:\New\AIChatterV2\AIChatter.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+H:\New\AIChatterV2\general.dat=$(AppPath)
+
+[Package|Chatter|Configure Shared Files]
+Applicable=Yes
+H:\New\AIChatterV2\AIChatter.exe=No
+H:\New\AIChatterV2\general.dat=No
+
+[Package|Chatter|Distribution]
+Type=single
+Size=
+Title=AIChatter
+
+[Package|Chatter|IconGroups]
+Group0=AIChatter
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Chatter|AIChatter]
+Icon1=AIChatter.exe
+Title1=AIChatter
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Chatter|Package]
+PackageFolder=H:\New\AIChatterV2\Setup
+ProjectFolder=H:\New\AIChatterV2
+ServerSideCab=
+File1=H:\New\AIChatterV2\Setup\setup.exe
+File2=H:\New\AIChatterV2\Setup\Setup.Lst
+File3=H:\New\AIChatterV2\Setup\AIChatter.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
